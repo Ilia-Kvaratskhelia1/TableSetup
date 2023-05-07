@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
 import "./Tab.css"
+import  { useEffect, useState } from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
 function Tab() {
   const url = 'https://course-api.com/react-tabs-project'
