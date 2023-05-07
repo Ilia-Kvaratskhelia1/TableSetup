@@ -1,0 +1,79 @@
+.mainContainer{
+    padding: 20px;
+    width: 60%;
+    background-color: aliceblue;
+    border-radius: 13px;
+}
+
+.job-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-jobs{
+    font-size: 1.6rem;
+    border: none;
+    background-color: transparent;
+}
+.active{
+    color: rgb(122, 202, 122);
+    border-bottom: 2px solid rgb(122, 202, 122);
+    padding: 2px;
+    font-weight: 300;
+}
+
+
+.jobTitle{
+    font-weight: normal;
+}
+.company{
+    margin: 7px 0;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+    background-color: gray;
+    color: rgb(53, 53, 53);
+
+}
+.dates{
+    color: gray;
+}
+
+.foot{
+    display: flex;
+    max-height: 100px;
+    margin: 20px 0;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.icon{
+    color: cyan;
+    font-size: 2.5rem;
+    margin: 0 10px;
+}
+
+@media only screen and (min-width:1200px){
+    .abouSection{
+      display: flex;
+        gap: 100px;
+    }
+    .work{
+      padding: 7px;
+    }
+    .job-btn{
+      flex-direction: column;
+      justify-content: start;
+    }
+    .button-jobs{
+      margin:20px 0;
+      min-width: 200px;
+      cursor: pointer;
+    }
+    .foot{
+      max-width: 400px;
+    }
+   
+  }

@@ -1,11 +1,12 @@
 import './App.css'
+import Tab from './components/Tab'
 
 function App() {
-
   return (
-    <>
-    <h1>Hello</h1>
-    </>
+    <section className='main'>
+    <h1 className='title'>Expierience</h1>
+    <Tab/>
+    </section>
   )
 }
 
